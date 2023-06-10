@@ -1,3 +1,2 @@
-token_weather = '# Токен погоды'
-token_bot = '# Токен бота'
-
+token_weather = '7199e3d01a7b7775057e2b8173122d02'
+token_bot = "5129788355:AAFLK_ABR5pFGc5vj32D01uM-wEKAJ1uZBU"
