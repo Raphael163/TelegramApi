@@ -66,9 +66,9 @@ async def get_weather(message: types.Message):
 async def new_chat_members(message: types.Message):
     if message.new_chat_members:
         for member in message.new_chat_members:
-            await message.reply(f"Привет, {member.first_name}! Добро пожаловать в чат!")
+            await message.reply(f"Привет, {member.first_name}! 🚴‍♂️ Добро пожаловать в группу "
+                                f"'Южный Город|ВелоПриключения' 🚵‍♂️🌲")
 
 
 if __name__ == "__main__":
     executor.start_polling(dp)
-
